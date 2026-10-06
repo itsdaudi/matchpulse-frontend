@@ -5,6 +5,8 @@ import MatchDetailPage from './pages/MatchDetailPage'
 import LeaguesPage from './pages/LeaguesPage'
 import TeamsPage from './pages/TeamsPage'
 import TeamDetailPage from './pages/TeamDetailPage'
+import PlayersPage from './pages/PlayersPage'
+import PlayerDetailPage from './pages/PlayerDetailPage'
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
           <Route path="/leagues" element={<LeaguesPage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/teams/:id" element={<TeamDetailPage />} />
+          <Route path="/players" element={<PlayersPage />} />
+          <Route path="/players/:id" element={<PlayerDetailPage />} />
         </Routes>
       </main>
     </div>

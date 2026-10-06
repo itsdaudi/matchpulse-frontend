@@ -9,3 +9,8 @@ export async function getTeam(id) {
   const { data } = await api.get(`/api/teams/${id}`)
   return data
 }
+
+export async function getTeamPlayers(teamId) {
+  const { data } = await api.get(`/api/teams/${teamId}/players`)
+  return data
+}

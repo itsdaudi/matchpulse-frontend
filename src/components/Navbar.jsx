@@ -13,6 +13,7 @@ export default function Navbar() {
           <NavLink to="/" end className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Matches</NavLink>
           <NavLink to="/leagues" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Leagues</NavLink>
           <NavLink to="/teams" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Teams</NavLink>
+          <NavLink to="/players" className={({ isActive }) => `nav-link${isActive ? ' active' : ''}`}>Players</NavLink>
         </nav>
       </div>
     </header>
